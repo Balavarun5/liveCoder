@@ -1,0 +1,149 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.code-toggle-container {
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+}
+
+.code-toggle-btn {
+  position: absolute;
+  top: -2rem;
+  right: 1rem;
+  background: #1a1a1a;
+  border: 1px solid #646cff;
+  color: #646cff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-family: monospace;
+  cursor: pointer;
+  transition: all 0.25s;
+  z-index: 1;
+}
+
+.code-toggle-btn:hover {
+  background: #646cff;
+  color: white;
+}
+
+.code-display {
+  position: relative;
+  background: #1a1a1a;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-top: 1rem;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.code-display pre {
+  margin: 0;
+  width: 100%;
+  white-space: pre-wrap;
+  font-family: monospace;
+  color: #e6e6e6;
+  font-size: 1.2rem;
+}
+
+.demo-section {
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 8px;
+  background: #1a1a1a;
+}
+
+.demo-section h2 {
+  margin-bottom: 2rem;
+  color: #646cff;
+}
+
+.component-view {
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.counter h2 {
+  margin: 0;
+  color: #646cff;
+}
+
+.counter-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.counter-buttons button {
+  font-size: 1.2rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #646cff;
+  background: transparent;
+  color: #646cff;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.counter-buttons button:hover {
+  background: #646cff;
+  color: white;
+}
